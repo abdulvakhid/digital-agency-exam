@@ -1,0 +1,52 @@
+.picture {
+    padding: 83px 0 165px;
+}
+
+.picture-context {
+    padding: 0 20px;
+}
+
+.title-box {
+    width: 100%;
+    max-width: 500px;
+}
+
+.picture-title {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 187.5%;
+    color: #222222;
+}
+
+.picture-content {
+    width: 100%;
+    max-width: 540px;
+}
+
+.picture-topic {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 187.5%;
+    color: #222222;
+}
+
+.picture-text {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #525252;
+}
+
+.imgpeople {
+    width: 100%;
+    background-color: transparent;
+}
+
+@media only screen and (min-width:992px) {
+    .picture-context {
+        padding: 0 70px;
+    }
+}

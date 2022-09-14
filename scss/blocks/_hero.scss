@@ -1,0 +1,75 @@
+.hero {
+    padding-top: 102px;
+    padding-bottom: 106px;
+        background-image: none, url("../images/herobg.jpg") ;
+    background-repeat: no-repeat;
+    background-size: 590px 600px, cover;
+    background-position:calc(50% + 268px), center ;
+
+}
+
+.content {
+    width: 100%;
+    max-width: 500px;
+padding: 0 20px;
+}
+
+.marketing {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 155.2%;
+    color: #E87D0E;
+}
+
+.title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 155.2%;
+}
+
+.text {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 200%;
+}
+
+.hero-link {
+    padding: 15px 30px;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    background: linear-gradient(92.48deg, #FA8305 2.08%, #FB9E3C 117.25%);
+    border-radius: 40px;
+}
+
+@media only screen and (min-width:576px) {
+
+
+    .title {
+        font-size: 50px;
+    }
+}
+
+@media only screen and (min-width:992px) {
+
+   .hero{
+background-image: url("../images/hero-after.svg") , url("../images/herobg.jpg");
+}
+    
+
+}
+
+
+
+@media only screen and (min-width:992px) {
+
+    .content {
+        max-width: 545px;
+       padding: 0 70px;
+    }
+    
+}
