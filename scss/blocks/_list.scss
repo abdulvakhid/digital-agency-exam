@@ -1,0 +1,103 @@
+
+
+.list-content {
+    width: 100%;
+    max-width: 800px;
+    margin-bottom: 100px;
+    padding: 0 20px;
+}
+
+.list-topic {
+    font-family: 'Poppins', "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 187.5%;
+    color: #222222;
+}
+
+.item-link {
+    background-image: url("../../images/arrow-icon.svg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    width: 21px;
+    height: 18px;
+}
+
+.item {
+    margin-bottom: 65px;
+    padding-top: 95px;
+    position: relative;
+
+    &::before {
+        content: "";
+        width: 65px;
+        height: 65px;
+        padding: 16px;
+        border-radius: 50%;
+        background-repeat: no-repeat;
+        background-size: 30px 30px;
+        background-position: center;
+        background-color: #dc700017;
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+    }
+}
+
+.mobile {
+    &::before {
+        background-image: url("../../images/mobile.svg");
+    }
+}
+
+.pc {
+    &::before {
+        background-image: url("../../images/pc.svg");
+    }
+}
+
+.ps4 {
+    &::before {
+        background-image: url("../../images/ps4.svg");
+    }
+}
+
+.vrar {
+    &::before {
+        background-image: url("../../images/vr.svg");
+    }
+}
+
+.arvr{
+    &::before {
+        background-image: url("../../images/vr-design.svg");
+    }
+}
+
+.modeling{
+    &::before {
+        background-image: url("../../images/3d.svg");
+    }
+}
+
+.list-title{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #000000;
+}
+
+@media only screen and (min-width:992px) {
+    .list-content,
+    .listed {
+        padding: 0 70px;
+    }
+
+
+}
