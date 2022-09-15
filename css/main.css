@@ -866,7 +866,7 @@ body {
 }
 
 .form-input {
-  padding: 15px 0 15px 15px;
+  padding: 15px 130px 15px 15px;
   margin-right: -100px;
 }
 
@@ -881,6 +881,18 @@ body {
   text-align: center;
   background-color: #DC7000;
   border-radius: 8px !important;
+}
+.form-button:hover {
+  color: #fff !important;
+  background-color: #DC7000 !important;
+}
+.form-button:focus {
+  color: #fff !important;
+  background-color: #DC7000 !important;
+}
+.form-button:active {
+  color: #fff !important;
+  background-color: #DC7000 !important;
 }
 
 @media only screen and (min-width: 768px) {
@@ -904,4 +916,23 @@ body {
   .form-contet {
     margin-right: 100px;
   }
+}
+.site-footer {
+  padding-top: 22px;
+  padding-bottom: 27px;
+  background-color: #1B1B1B;
+}
+
+.info-box {
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+.footer-info {
+  font-family: "Poppins", "Arial", sans-serif;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 190.6%;
+  color: #FFFFFF;
 }/*# sourceMappingURL=main.css.map */

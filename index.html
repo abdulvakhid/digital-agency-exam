@@ -279,7 +279,7 @@
         </p>
       </div>
       
-      <form class="loop-form mx-auto d-md-flex align-items-md-center justify-content-between" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+      <div class="loop-form mx-auto d-md-flex align-items-md-center justify-content-between" >
         <div class="form-contet mb-5 mb-md-0">
           <h3 class="form-title text-white mb-3">
             Stay in the loop
@@ -290,11 +290,11 @@
           </p>
         </div>
         
-        <div class="input-group">
-          <input class="form-control form-input" type="email"  placeholder="Enter email address" aria-label="Enter email address" aria-describedby="input-group-button-right">
-          <button type="button" class="btn btn-outline-secondary text-white form-button" id="input-group-button-right">Continue</button>
-        </div>
-      </form>
+        <form class="input-group" action="https://echo.htmlacademy.ru/courses" method="post" autocomplete="off">
+          <input class="form-control form-input" type="email"  name="emailaddress"   placeholder="Enter email address" aria-label="Enter email address" aria-describedby="input-group-button-right">
+          <button type="submit" class="btn text-white form-button" id="input-group-button-right">Continue</button>
+        </form>
+      </div>
     </div>
   </section>
   <!-- LOOP SECTION END -->
@@ -303,7 +303,73 @@
 
 <!-- FOOTER PART BEGIN  -->
 <footer class="site-footer">
+<div class="container">
   
+  <div class="row">
+    <div class="col-3">
+      <div class="site-info">
+        <a href="./index.html">
+          <img src="./images/bootstraplogo.svg"
+          width="71"
+          height="39"
+           alt="logo">
+        </a>
+
+        <p class="footer-info-desc">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        </p>
+        <p class="footer-info-desc">
+          @Company.com
+        </p>
+
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="footer-list-box">
+        <strong class="footer-title">
+          About us
+        </strong>
+        <ul>
+          <li>
+            <a class="footer-info-link" href="#">Company</a>
+          </li>
+          <li>
+            <a class="footer-info-link" href="#">Portfolio</a>
+          </li>
+          <li>
+            <a class="footer-info-link" href="#">Careers</a>
+          </li>
+          <li>
+            <a class="footer-info-link" href="#">Contact us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="col-3">
+      <div class="footer-contact">
+        <strong class="footer-title">
+          Contact us
+        </strong>
+
+        <p class="footer-info-desc">
+          Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
+        </p>
+
+        <a class="footer-info-desc" href="tel:90000000000">+9000 0000 000</a>
+      </div>
+    </div>
+
+
+  </div>
+
+</div>
+  <div class=" info-box">
+    <p class="footer-info mb-0">
+      Copyright ® 2021 Company All rights Rcerved
+    </p>
+  </div>
 </footer>
 <!-- FOOTER PART END  -->
 <script src="./js/bootstrap.bundle.min.js"></script>

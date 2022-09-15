@@ -43,7 +43,7 @@
 }
 
 .form-input{
-padding: 15px 0 15px 15px;
+padding: 15px 130px 15px 15px;
 margin-right: -100px;
 }
 
@@ -58,7 +58,22 @@ margin-right: -100px;
     text-align: center;
     background-color: #DC7000;
 border-radius: 8px !important;
-}
+
+// &:hover{
+// color: #fff !important;
+// background-color: #DC7000 !important;
+// }
+
+// &:focus{
+//     color: #fff !important;
+//     background-color: #DC7000 !important;
+//     }
+
+// &:active{
+//     color: #fff !important;
+//     background-color: #DC7000 !important;
+//     }
+// }
 
 @media only screen and (min-width:768px) {
    .form-contet{
