@@ -889,8 +889,6 @@ body {
   .karusel {
     width: 100%;
     max-width: 1270px;
-    margin: 0 auto;
-    margin-left: -300px;
   }
 }
 @media only screen and (min-width: 992px) {
@@ -1167,7 +1165,7 @@ input::placeholder {
   .form-contet {
     margin-right: 100px;
   }
-  .form-text {
+  .loop-text {
     font-size: 14px;
   }
 }
