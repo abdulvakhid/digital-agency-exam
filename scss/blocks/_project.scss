@@ -2,8 +2,8 @@
     padding: 60px 0 103px;
 }
 
-.project-contnet-box{
-padding: 0 20px;
+.project-contnet-box {
+    padding: 0 20px;
 }
 
 .project-content {
@@ -14,17 +14,17 @@ padding: 0 20px;
 }
 
 .project-topic {
-    font-family: 'Poppins', "Arial", sans-serif;
+    font-family: "Poppins", "Arial", sans-serif;
     font-weight: 600;
-    font-size: 25px;
+    font-size: 20px;
     line-height: 187.5%;
     color: #525252;
 }
 
 .project-text {
-    font-family: 'Poppins', "Arial", sans-serif;
+    font-family: "Poppins", "Arial", sans-serif;
     font-weight: 400;
-    font-size: 14px;
+    font-size: 12px;
     line-height: 187.5%;
     color: #525252;
 }
@@ -39,7 +39,16 @@ padding: 0 20px;
         padding: 141px 0 99px;
     }
 
-    .project-contnet-box{
+    .project-contnet-box {
         padding: 0 70px;
-        }
+    }
+
+    .project-topic{
+        font-size: 25px;
+    }
+
+    .project-text{
+        font-size: 14px;
+    }
+
 }

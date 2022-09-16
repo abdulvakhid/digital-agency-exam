@@ -18,18 +18,35 @@
     color: #FFFFFF;
 }
 
-.footer-info-desc{
+.iinfo{
     font-family: "Poppins", "Arial", sans-serif;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    color: #FFFFFF;
+    color: #FFFFFF !important;
 }
 
-.footer-info-link{
+.title-footer{
     font-family: "Poppins", "Arial", sans-serif;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #FFFFFF;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 26px;
+    color: #FFFFFF !important;
+}
+
+@media only screen and (min-width:768px) {
+    .site-footer{
+    padding-top: 66px;
+    padding-bottom: 29px;
+
+    .foter-content{
+    margin-bottom: 53px !important;
+    }
+    }
+}
+
+@include mobile-first(992px) {
+    .footer-info{
+        font-size: 13px;
+    }
 }

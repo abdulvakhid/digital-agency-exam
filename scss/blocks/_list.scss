@@ -1,5 +1,3 @@
-
-
 .list-content {
     width: 100%;
     max-width: 800px;
@@ -8,7 +6,7 @@
 }
 
 .list-topic {
-    font-family: 'Poppins', "Arial", sans-serif;
+
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -16,8 +14,17 @@
     color: #222222;
 }
 
+.list-text{
+    font-family: 'Poppins', "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187.5%;
+    text-align: center;
+    color: #525252;
+}
+
 .item-link {
-    background-image: url("../../images/arrow-icon.svg");
+    background-image: url("../images/arrow-icon.svg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -99,5 +106,14 @@
         padding: 0 70px;
     }
 
+    .list-topic{
+        font-size: 25px;
+    }
 
+    .list-text{
+        font-size: 16px;
+    }
+    .list-title{
+        font-size: 16px;
+    }
 }

@@ -1,0 +1,180 @@
+.dig-carousel {
+    padding: 69px 0 100px 0;
+    background-color: #F5F5F5;
+    overflow-x: hidden;
+}
+
+.carousel-list {
+    position: relative;
+}
+
+.owl-nav {
+    margin-top: 0 !important;
+    display: inline-block !important;
+    position: absolute;
+    bottom: -30%;
+    right: 10%;
+    transform: translateY(-50%);
+    z-index: 5;
+}
+
+.owl-prev {
+    margin: 0 !important;
+    margin-right: 20px !important;
+    right: 12% !important;
+    width: 40px;
+    height: 40px;
+    top: -30%;
+    background: #fff !important;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+    color: rgb(0, 0, 0) !important;
+    border-radius: 50% !important;
+}
+
+.owl-next {
+    margin: 0 !important;
+    right: 7% !important;
+    width: 40px;
+    height: 40px;
+    top: -30%;
+    background: #fff !important;
+    box-shadow: 0px 4px 24px rgba(0, 0, 0, 0.12);
+    color: rgb(0, 0, 0) !important;
+    border-radius: 50% !important;
+}
+
+.carousel__item {
+    width: 100%;
+    padding: 30px 30px 28px 24px;
+    background-color: #FFFFFF;
+    box-shadow: 0px 4px 94px rgba(0, 0, 0, 0.05);
+    border-radius: 20px;
+}
+
+.headline {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 187.5%;
+    color: #222222;
+}
+
+.headline-info {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 187.5%;
+    color: #525252;
+}
+
+.corosel-info {
+    padding: 7px 35px 6px 14px;
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 187.5%;
+    color: #DC0000;
+    background: #dc00001a;
+    border-radius: 8px;
+}
+
+.link-green {
+    color: #0CBE64;
+    background-color: #0cbe6426;
+}
+
+.link-red {
+    color: #B000DC;
+    background: #b000dc1c;
+}
+
+.link-blue {
+    color: #0058DC;
+    background: #0058dc17;
+}
+
+.corosul-title {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 187.5%;
+}
+
+.corosul-text {
+    font-family: "Poppins", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 187.5%;
+    color: #525252;
+}
+
+.link-box {
+    margin-right: 20px;
+}
+
+.corosel-link {
+    padding-right: 20px;
+    font-family: "Poppins", "Arial", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 187.5%;
+    color: #DC7000;
+    position: relative;
+
+    &::after {
+        content: "";
+        position: absolute;
+        background-image: url("../images/arrow.svg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 14px;
+        height: 12px;
+        top: 7px;
+        left: 90px;
+    }
+}
+
+@include mobile-first(600px) {
+    .karusel {
+        width: 100%;
+        max-width: 1270px;
+        margin: 0 auto;
+        margin-left: -300px;
+    }
+}
+
+@include mobile-first(992px) {
+    .owl-nav {
+        top: 20%;
+        right: 10%;
+    }
+
+    .headline {
+        font-size: 30px;
+    }
+
+    .headline-info {
+        font-size: 16px;
+    }
+
+    .corosel-info {
+        font-size: 14px;
+    }
+
+    .corosul-title {
+        font-size: 20px;
+    }
+
+    .corosul-text {
+        font-size: 14px;
+    }
+
+    .corosel-link {
+        font-size: 14px;
+    }
+}

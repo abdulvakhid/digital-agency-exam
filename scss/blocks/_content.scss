@@ -30,12 +30,12 @@
     line-height: 24px;
     background-color: #DC7000;
     border-radius: 0;
-    
+
     &:hover {
         color: #fff;
         background-color: #DC7000;
     }
-    
+
 }
 
 .contents-img {
@@ -45,18 +45,30 @@
 }
 
 @media only screen and (min-width:992px) {
-    
+
     .contents {
         padding-bottom: 125px;
     }
-    
+
     .contents-img {
         width: 610px;
         height: 400px;
     }
-    
+
     .box-contents {
         width: 100%;
         max-width: 473px;
     }
+
+
+    .contents-topic {
+        font-size: 30px;
+        line-height: 45px;
+    }
+
+    .contents-text {
+        font-size: 17px;
+        line-height: 26px;
+    }
+
 }
